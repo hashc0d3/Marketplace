@@ -1,0 +1,6 @@
+nav .navbar {
+    display: flex;
+    color: #000000;
+    list-style: none;
+    gap: 40px;
+}

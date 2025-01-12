@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package example;
+
+// gRPC сервис
+service ExampleService {
+  rpc SayHello (HelloRequest) returns (HelloResponse);
+}
+
+// Входной запрос
+message HelloRequest {
+  string name = 1;
+}
+
+// Ответ
+message HelloResponse {
+  string message = 1;
+}
